@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imgs/rrt8.jpg);
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+hr {
+    color: black;
+    opacity: 0.08;
+}
+
+strong {
+    color: red;
+    font-weight: bolder;
+}
+
+.logo {
+    font-size: 21px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: solid;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn {
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: red;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+    ;
+}
+
+.parte-1 {
+    display: flex;
+    background-image: url(imgs/rrt8.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.texto-parte-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 50px;
+}
+
+.texto-parte-1 h1 {
+    color: rgb(255, 0, 0);
+
+}
+
+.about {
+    display: flex;
+    background-image: url(imgs/rrt8-1.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+
+}
+
+.texto-app-fotos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+    padding-left: 50px;
+}
+
+.texto-app-fotos h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-bottom: 100px;
+}
+
+
+.publico {
+    display: flex;
+    background-image: url(imgs/rrt8.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 2px;
+}
+
+.texto-menino-treinando {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.texto-menino-treinando h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-bottom: 35px;
+}
+
+.time h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-bottom: 50px;
+}
+
+.time-membros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.time-membros div {
+    text-align: center;
+}
+
+.time-membros img {
+    width: 160px;
+    height: 240px;
+    border-radius: 5%;
+}
+
+.sobre-nos {
+    display: grid;
+    background-image: url(imgs/rrt8-1.jpg);
+    background-size: cover;
+    text-align: justify;
+    padding: 0 70px 0 70px;
+}
+
+.sobre-nos h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-bottom: 20px;
+}
+
+.sobre-nos-texto {
+    margin-left: 100px;
+    margin-right: 85px
+}
+
+.contato {
+    background-image: url(imgs/rrt8.jpg);
+    background-size: cover;
+}
+
+.contato h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(255, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.158);
+    border-radius: 5px;
+    padding: 25px;
+    gap: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.rodape {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
