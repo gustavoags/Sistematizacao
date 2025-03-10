@@ -72,7 +72,7 @@ p {
     font-size: 32px;
     text-align: left;
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     padding-left: 100px;
     gap: 20px;
 }
@@ -82,6 +82,7 @@ p {
     flex-direction: column;
     gap: 5px;
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .texto-parte-1 h1 {
@@ -106,6 +107,7 @@ p {
     text-align: left;
     gap: 5px;
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .texto-app-fotos h2 {
@@ -169,12 +171,12 @@ p {
     background-image: url(imgs/rrt8-1.jpg);
     background-size: cover;
     text-align: justify;
-    padding: 0 70px 0 70px;
+    padding: 0 70px 50px 70px;
 }
 
 .sobre-nos h2 {
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0.747);
     padding-bottom: 20px;
 }
 
@@ -199,6 +201,7 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    text-align: justify;
     background-color: rgba(255, 0, 0, 0.158);
     border-radius: 5px;
     padding: 25px;
@@ -210,12 +213,12 @@ form {
 input,
 button {
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid rgba(255, 0, 0, 0.637);
     border-radius: 5px;
 }
 
 button {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.904);
     color: white;
     cursor: pointer;
 }
