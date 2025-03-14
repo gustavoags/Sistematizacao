@@ -124,7 +124,7 @@ p {
 
 
 .publico {
-    display: flex;
+    display:flex;
     background-color: black;
     box-shadow: black 5px 5px 5px;
     align-items: center;
@@ -166,6 +166,8 @@ p {
 .time h2 {
     text-align: center;
     color: rgb(255, 0, 0);
+    margin: 0px;
+    padding-top: 20px;
     padding-bottom: 35px;
 }
 
@@ -199,6 +201,7 @@ p {
 .sobre-nos h2 {
     text-align: center;
     color: rgb(255, 0, 0);
+    margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -235,12 +238,13 @@ form {
     text-align: justify;
     padding: 25px;
     gap: 25px;
-    width: 250px;
+    width: 600px;
     margin: 0 auto 20px;
 }
 
 input,
 button {
+    font-size: 16px;
     padding: 10px;
     border: 1px solid rgba(255, 0, 0, 0.637);
     border-radius: 5px;
